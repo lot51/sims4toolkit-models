@@ -7,6 +7,8 @@ import CombinedTuningResource from "./lib/resources/combined-tuning/combined-tun
 import DdsImageResource from "./lib/resources/dds-image/dds-image-resource";
 import ObjectDefinitionResource from "./lib/resources/object-definition/object-definition-resource";
 import DeletedResource from "./lib/resources/deleted/deleted-resource";
+import CasPartResource from "./lib/resources/cas-part/cas-part-resource";
+import ObjectCatalogResource from "./lib/resources/object-catalog/object-catalog-resource";
 
 export {
   Package,
@@ -18,4 +20,6 @@ export {
   DdsImageResource,
   ObjectDefinitionResource,
   DeletedResource,
+  CasPartResource,
+  ObjectCatalogResource,
 }

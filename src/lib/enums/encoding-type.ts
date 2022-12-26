@@ -7,8 +7,10 @@ enum EncodingType {
   Null = "Null",
 
   // known encoding
+  CASP = "CASP",
   DATA = "DATA",
   DDS = "DDS", // DST is a subtype of DDS
+  OBJC = "OBJC",
   OBJDEF = "OBJDEF",
   STBL = "STBL",
   XML = "XML",

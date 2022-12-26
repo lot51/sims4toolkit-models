@@ -18,6 +18,7 @@
     "build": "npm run clean ; tsc ; node scripts/prepublish.cjs",
     "publish": "npm run build && sh scripts/publish.sh",
     "test": "mocha -r ts-node/register \"test/**/*.test.ts\"",
+    "test:cas-parts": "mocha -r ts-node/register \"test/lib/resources/cas-part/*.test.ts\"",
     "test:coverage": "nyc mocha -r ts-node/register \"test/**/*.test.ts\"",
     "test:current": "mocha -r ts-node/register \"test/**/obj-definition.test.ts\""
   },
